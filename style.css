@@ -129,7 +129,7 @@ h4 {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-  cursor: pointer;
+  cursor: poi;
 }
 
 .flip-card-front,
@@ -152,6 +152,9 @@ h4 {
 }
 img {
   border-radius: 35px;
+}
+.contact-me img{
+  margin-bottom: 1rem;
 }
 
 .hero {
@@ -176,9 +179,6 @@ img {
   align-items: center;
 } */
 
-.center img {
-  margin-bottom: 1rem;
-}
 
 .contact-me span {
   margin: 5rem;
