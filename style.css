@@ -35,6 +35,7 @@ li:hover a {
   border-radius: 10px;
   transition: 1s;
   letter-spacing: 0.1em;
+  cursor: pointer;
 }
 .navbar-toggler {
   color: rgb(211, 211, 211);
@@ -87,6 +88,7 @@ article h2 {
   background-color: transparent;
   border-radius: 20px;
   background-color: #20232f;
+  cursor: pointer;
 }
 
 h4 {
@@ -127,6 +129,7 @@ h4 {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 
 .flip-card-front,
@@ -303,7 +306,7 @@ footer a {
   position: absolute;
   left: 0;
   height: 120%;
-  width: 120%;
+  width: 200%;
   background: #323744;
   border-left: 5px solid #ffffff;
   animation: typing 3s steps(25) forwards;
@@ -321,7 +324,7 @@ footer a {
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   span {
     font-size: small;
   }
@@ -347,7 +350,7 @@ footer a {
   .flip-card .flip-card-front .flip-card-back {
     width: 200px;
   }
-}
+} */
 @media (max-width: 973px) {
   .hero {
     display: grid;
@@ -371,4 +374,76 @@ footer a {
     margin: 1rem;
   }
   
+}
+@media (max-width: 880px) {
+  .my-skills{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    
+  }
+
+}
+@media (max-width: 840px) {
+  .experience{
+width: 40rem;
+  }
+}
+
+@media (max-width: 760px) {
+ .dynamic-txts li span{
+  font-size: 30px;
+ }
+
+ .intro{
+  width: 35rem;
+  font-size: 22px;
+ }
+}
+@media (max-width: 655px) {
+ .intro{
+  width: 30rem;
+  font-size: 20px;
+ }
+ 
+  .experience{
+    width: 30rem;
+  }
+
+}
+@media (max-width: 565px) {
+  .intro{
+    width: 25rem;
+    font-size: 20px;
+  }
+}
+@media (max-width: 505px) {
+ 
+  .intro{
+    width: 22rem;
+    font-size: 17px;
+  }
+  .dynamic-txts li span{
+    font-size: 25px;
+  }
+  .experience{
+    width: 25rem;
+  }
+}
+@media (max-width: 422px) {
+  .experience:hover {
+    scale: 1;
+  }  
+  .dynamic-txts li span::after {
+    height: 150%;
+    width: 200%;
+    background: #323744;
+  }
+  .dynamic-txts li span{
+    font-size: 20px;
+  }
+  .intro{
+    width: 18rem;
+    font-size: 16px;
+  }
 }
