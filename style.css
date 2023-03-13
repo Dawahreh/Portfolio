@@ -129,7 +129,7 @@ h4 {
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-  cursor: poi;
+  cursor: pointer;
 }
 
 .flip-card-front,
@@ -153,7 +153,7 @@ h4 {
 img {
   border-radius: 35px;
 }
-.contact-me img{
+.contact-me img {
   margin-bottom: 1rem;
 }
 
@@ -178,7 +178,6 @@ img {
   align-content: center;
   align-items: center;
 } */
-
 
 .contact-me span {
   margin: 5rem;
@@ -256,7 +255,6 @@ h2 {
   color: white;
   font-family: "Courier New", Courier, monospace;
 }
-
 
 footer {
   position: relative;
@@ -374,76 +372,86 @@ footer a {
   .contact-me img {
     margin: 1rem;
   }
-  
 }
 @media (max-width: 880px) {
-  .my-skills{
+  .my-skills {
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
-    
   }
-
 }
 @media (max-width: 840px) {
-  .experience{
-width: 40rem;
+  .experience:hover {
+    scale: 1;
+  }
+  .experience {
+    width: 40rem;
   }
 }
 
 @media (max-width: 760px) {
- .dynamic-txts li span{
-  font-size: 30px;
- }
-
- .intro{
-  width: 35rem;
-  font-size: 22px;
- }
-}
-@media (max-width: 655px) {
- .intro{
-  width: 30rem;
-  font-size: 20px;
- }
- 
-  .experience{
-    width: 30rem;
+  .experience:hover {
+    scale: 1;
+  }
+  .dynamic-txts li span {
+    font-size: 30px;
   }
 
+  .intro {
+    width: 35rem;
+    font-size: 22px;
+  }
+}
+@media (max-width: 655px) {
+  .experience:hover {
+    scale: 1;
+  }
+  .intro {
+    width: 30rem;
+    font-size: 20px;
+  }
+
+  .experience {
+    width: 30rem;
+  }
 }
 @media (max-width: 565px) {
-  .intro{
+  .experience:hover {
+    scale: 1;
+  }
+  .intro {
     width: 25rem;
     font-size: 20px;
   }
 }
 @media (max-width: 505px) {
- 
-  .intro{
+  .experience:hover {
+    scale: 1;
+  }
+  .intro {
     width: 22rem;
     font-size: 17px;
   }
-  .dynamic-txts li span{
+  .dynamic-txts li span {
     font-size: 25px;
   }
-  .experience{
+  .experience {
     width: 25rem;
   }
 }
 @media (max-width: 422px) {
   .experience:hover {
     scale: 1;
-  }  
+  }
   .dynamic-txts li span::after {
     height: 150%;
     width: 200%;
     background: #323744;
   }
-  .dynamic-txts li span{
+  .dynamic-txts li span {
     font-size: 20px;
   }
-  .intro{
+  .intro {
     width: 18rem;
     font-size: 16px;
   }
