@@ -457,6 +457,9 @@ footer a {
   }
 }
 @media (max-width: 422px) {
+  .experience{
+    width: 22rem;
+  }
   .experience:hover {
     scale: 1;
   }
@@ -472,4 +475,33 @@ footer a {
     width: 18rem;
     font-size: 16px;
   }
+}
+@media (max-width: 415px) {
+  .experience:hover {
+    scale: 1;
+  }
+  
+  .intro {
+    width: 16rem;
+    font-size: 15px;
+  }
+  .dynamic-txts li span::after {
+    height: 300%;
+    width: 200%;
+    background: #323744;
+  }
+  .dynamic-txts li span {
+    font-size: 17px;
+  }
+
+}
+@media (max-width: 395px) {
+ 
+  .skill h3{
+font-size: 17px;
+  }
+  .flip-card img{
+    width: 5rem;
+  }
+
 }
