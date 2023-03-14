@@ -496,6 +496,9 @@ footer a {
 
 }
 @media (max-width: 395px) {
+  .skill{
+    margin: 0;
+  }
  
   .skill h3{
 font-size: 17px;
