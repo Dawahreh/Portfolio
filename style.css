@@ -160,12 +160,12 @@ img {
   margin-bottom: 1rem;
 }
 
-.hero    {
+.hero {
   display: grid;
   grid-template-columns: 3fr 1fr;
   justify-content: space-around;
 }
-.intro{
+.intro {
   display: flex;
   justify-content: end;
 }
@@ -178,7 +178,7 @@ img {
   margin-top: 3rem;
 }
 
-.logos{
+.logos {
   display: flex;
   justify-content: space-evenly;
 }
@@ -385,7 +385,7 @@ footer a {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .contact-me img {
     margin: 1rem;
   }
@@ -457,7 +457,7 @@ footer a {
   }
 }
 @media (max-width: 422px) {
-  .experience{
+  .experience {
     width: 22rem;
   }
   .experience:hover {
@@ -480,7 +480,7 @@ footer a {
   .experience:hover {
     scale: 1;
   }
-  
+
   .intro {
     width: 16rem;
     font-size: 15px;
@@ -493,18 +493,16 @@ footer a {
   .dynamic-txts li span {
     font-size: 17px;
   }
-
 }
 @media (max-width: 395px) {
-  .skill{
+  .my-skills {
     margin: 0;
   }
- 
-  .skill h3{
-font-size: 17px;
+
+  .skill h3 {
+    font-size: 17px;
   }
-  .flip-card img{
+  .flip-card img {
     width: 5rem;
   }
-
 }
